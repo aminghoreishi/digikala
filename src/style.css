@@ -1,20 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-yellowBg: #F1B80C;
+  --color-yellowBg: #f1b80c;
   --font-DanaMedium: "Dana-Medium";
-  --bg-bgimg : "/public/image 42.png"
+  --bg-bgimg: "/public/image 42.png";
 }
 @font-face {
   font-family: Dana-Medium;
   font-style: normal;
   font-weight: 200 700;
   font-display: swap;
-  src: url("/public/fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
+  src: url("fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
 }
-
-
-
 @utility container {
   padding-inline: 10px;
   margin-inline: auto;
@@ -30,4 +27,23 @@
   @variant xl {
     padding-inline: 120px;
   }
+}
+
+.Navbar__right {
+  @apply flex items-center gap-x-3;
+}
+.Navbar__ledt-btn {
+  @apply flex items-center gap-x-1 font-DanaMedium justify-center cursor-pointer border text-sm w-[131px] h-[40px] border-[#E0E0E2] p-2 rounded-md;
+}
+.Navbar__right-Container-input {
+  @apply relative w-full;
+}
+.Navbar__ledt {
+  @apply hidden lg:flex gap-x-3 items-center;
+}
+.Navbar__right-input {
+  @apply w-full text-sm lg:text-base lg:w-[600px] outline-0 p-2 font-DanaMedium rounded-md pr-12 bg-[#81858B]/30;
+}
+.Navbar__right-img {
+  @apply hidden lg:flex;
 }
