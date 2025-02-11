@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-yellowBg: #F1B80C;
+  --font-DanaMedium: "Dana-Medium";
+  --bg-bgimg : "/public/image 42.png"
+}
+@font-face {
+  font-family: Dana-Medium;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/public/fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
+}
+
+
+
+@utility container {
+  padding-inline: 10px;
+  margin-inline: auto;
+
+  @variant sm {
+    padding-inline: 20px;
+  }
+
+  @variant lg {
+    padding-inline: 80px;
+  }
+
+  @variant xl {
+    padding-inline: 120px;
+  }
+}
