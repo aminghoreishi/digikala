@@ -1,4 +1,4 @@
-import "../style.css";
+import "../../style.css";
 
 function NavbarAd() {
   return (
@@ -8,6 +8,7 @@ function NavbarAd() {
         <p className="font-light text-gray-500 text-xs hidden lg:flex  lg:text-sm">تا 235 میلیون تومان جایزه برای همه بدون قرعه کشی</p>
       </div>
     </div>
+    
   );
 }
 export default NavbarAd;

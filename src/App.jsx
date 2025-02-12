@@ -1,11 +1,13 @@
-import NavbarAd from "./NavbarAd/NavbarAd";
-import Navbar from "./Navbar/Navbar,";
+import NavbarAd from "./Header/NavbarAd/NavbarAd";
+import Navbar from "./Header/Navbar/Navbar";
+import Header from "./Header/Header";
 function App() {
   return (
-     <div className="">
-      <NavbarAd/>
+    <div>
+      <NavbarAd />
       <Navbar></Navbar>
-     </div>
+      <Header/>
+    </div>
   );
 }
 
