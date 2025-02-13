@@ -12,7 +12,6 @@ export default function Story() {
   return (
     <div className="container mx-auto">
       <Swiper
-        spaceBetween={30}
         freeMode={true}
         breakpoints={{
           320: {
@@ -29,7 +28,7 @@ export default function Story() {
           },
           1024: {
             slidesPerView: 10,
-            spaceBetween: 50,
+            spaceBetween: 5,
           },
         }}
         className="mySwiper mt-5"
