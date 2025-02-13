@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Pagination, Navigation , Autoplay } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -21,15 +21,15 @@ export default function Header() {
           breakpoints={{
             320: {
               slidesPerView: 4,
-              spaceBetween: 5,
+              spaceBetween: 3,
             },
             640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
+              slidesPerView: 6,
+              spaceBetween: 5,
             },
             768: {
-              slidesPerView: 4,
-              spaceBetween: 40,
+              slidesPerView: 6,
+              spaceBetween: 5,
             },
             1024: {
               slidesPerView: 10,
@@ -41,7 +41,7 @@ export default function Header() {
           className="mySwiper mt-5"
         >
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -54,7 +54,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -67,7 +67,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -80,7 +80,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -93,7 +93,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -106,7 +106,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -119,7 +119,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -132,7 +132,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -145,7 +145,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -158,7 +158,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -171,7 +171,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -184,7 +184,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -197,7 +197,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -210,7 +210,7 @@ export default function Header() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
+            <div className="size-15 sm:size-20 overflow-hidden flex items-center justify-center border-2 border-red-700 rounded-full">
               <p>
                 <img
                   src="https://images.interactify.live/e818ef9ec70e471ab4909f174b88e1fe.jpeg?width=115"
@@ -224,12 +224,12 @@ export default function Header() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="mt-5">
+      <div className="mt-5 h-full sm:h-[143px]">
         <Swiper
-          spaceBetween={30}
+          spaceBetween={1}
           loop={true}
           slidesPerView={1}
-          modules={[Pagination , Autoplay]}
+          modules={[Pagination, Autoplay]}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -238,21 +238,21 @@ export default function Header() {
         >
           <SwiperSlide className="h-full">
             <img
-              className="w-full h-full"
-              src="https://dkstatics-public.digikala.com/digikala-adservice-banners/d32bd3a5185f0e118fdb8ab0047ee7dbf155fb2b_1739017057.jpg?x-oss-process=image/quality,q_95"
+              className="w-full h-full object-cover flex md:hidden"
+              src="https://dkstatics-public.digikala.com/digikala-adservice-banners/2fd8f9dfaa7166b5eb0cf060653e7c69b0fbab60_1739026411.gif?x-oss-process=image"
               alt=""
             />
           </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
-              className="w-full h-full"
+              className="w-full h-full object-cover"
               src="https://dkstatics-public.digikala.com/digikala-adservice-banners/64db634e2e59c8583063cdc2250ce34a7377eeb4_1739026411.gif?x-oss-process=image"
               alt=""
             />
-          </SwiperSlide >
+          </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
-              className="w-full h-full"
+              className="w-full h-full object-cover"
               src="https://dkstatics-public.digikala.com/digikala-adservice-banners/85a9ec1107d6ac4ef9ac7898713e4b403df18401_1738991714.jpg?x-oss-process=image/quality,q_95"
               alt=""
             />
