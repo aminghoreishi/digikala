@@ -21,3 +21,9 @@ Install my-project with npm
   cd digikala
   npm run dev
 ```
+
+## Features
+
+- Responsive
+- Fullscreen mode
+- Cross platform
