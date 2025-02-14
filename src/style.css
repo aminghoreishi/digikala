@@ -3,9 +3,10 @@
 @theme {
   --color-yellowBg: #f1b80c;
   --font-DanaMedium: "Dana-Medium";
+  --font-DanaBold: "Dana-Bold";
   --bg-bgimg: "/public/image 42.png";
-  --color-redCustom:#D42D4E;
-  --breakpoint-xs:375;
+  --color-redCustom: #d42d4e;
+  --breakpoint-xs: 30rem;
 }
 @font-face {
   font-family: Dana-Medium;
@@ -13,6 +14,13 @@
   font-weight: 200 700;
   font-display: swap;
   src: url("fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: Dana-Bold;
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+  src: url("font/Dana/Woff/DanaFaNum-DemiBold.woff2") format("woff2");
 }
 @utility container {
   padding-inline: 10px;
