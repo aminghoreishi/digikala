@@ -4,7 +4,8 @@
   --color-yellowBg: #f1b80c;
   --font-DanaMedium: "Dana-Medium";
   --bg-bgimg: "/public/image 42.png";
-  --color-redCustom:#D42D4E
+  --color-redCustom:#D42D4E;
+  --breakpoint-xs:375;
 }
 @font-face {
   font-family: Dana-Medium;
