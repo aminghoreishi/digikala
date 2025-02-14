@@ -4,16 +4,16 @@ export default function CoverItem() {
   return (
     <ul className="grid grid-cols-2 md:grid-cols-4 gap-3">
       <li className="w-full">
-        <img src="/ی.png" />
+        <img className="size-full" src="/ی.png" />
       </li>
       <li className="w-full">
-        <img src="/ی2.png" />
+        <img className="size-full" src="/ی2.png" />
       </li>
       <li className="w-full">
-       <img src="/ی3.png" />
+       <img  className="size-full"src="/ی3.png" />
       </li>
       <li className="w-full">
-        <img src="/ی4.png" />
+        <img className="size-full" src="/ی4.png" />
       </li>
     </ul>
   );
