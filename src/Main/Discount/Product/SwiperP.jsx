@@ -16,7 +16,6 @@ export default function SwiperP() {
   return (
     <>
       <Swiper
-       
         spaceBetween={10}
         freeMode={true}
         breakpoints={{
@@ -29,11 +28,11 @@ export default function SwiperP() {
               spaceBetween: 5,
             },
             768: {
-              slidesPerView: 6,
+              slidesPerView: 4,
               spaceBetween: 5,
             },
             1024: {
-              slidesPerView: 7,
+              slidesPerView: 5,
               spaceBetween: 10,
             },
           }}
