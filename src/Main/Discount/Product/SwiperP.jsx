@@ -37,7 +37,7 @@ export default function SwiperP() {
             },
           }}
         modules={[FreeMode]}
-        className="mySwiper w-full lg:h-full h-[250px]"
+        className="mySwiper w-full lg:h-full h-[240px] rounded-md"
       >
         <SwiperSlide className="h-full">
           <Product />

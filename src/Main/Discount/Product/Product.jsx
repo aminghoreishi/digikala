@@ -15,18 +15,19 @@ export default function Product() {
       </div>
       <div className="w-full">
         <div className="flex justify-between w-full items-center">
-          <div className="bg-redCustom p-1 rounded-md text-white text-xs ">
+          <div className="bg-redCustom p-0.5 sm:p-1 rounded-md text-white text-[10px] sm:text-xs ">
             <p>8%</p>
           </div>
           <div className="flex items-center gap-x-1">
+            <div className="flex items-center gap-x-1">
+            <del className=" text-gray-400 text-[10px]">6,899,999</del>
             <p className="text-xs">6,355,000</p>
+
+            </div>
             <svg className="size-4">
               <use href="#toman"></use>
             </svg>
           </div>
-        </div>
-        <div className="flex w-full justify-center">
-          <del className="text-xs text-gray-400">6,899,999</del>
         </div>
       </div>
     </div>
