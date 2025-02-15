@@ -1,5 +1,6 @@
 
 import Cover from "./Cover/Cover";
+import Cover2 from "./Cover2/Cover2";
 import Discount from "./Discount/Discount";
 import SuperMarketBanner from "./SuperMarketBanner/SuperMarketBanner";
 export default function Main() {
@@ -8,6 +9,7 @@ export default function Main() {
       <Discount />
       <Cover/>
       <SuperMarketBanner/>
+      <Cover2/>
     </div>
   );
 }
