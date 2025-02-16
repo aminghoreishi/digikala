@@ -1,4 +1,5 @@
 
+import Brand from "./Brand/Brand";
 import Cover from "./Cover/Cover";
 import Cover2 from "./Cover2/Cover2";
 import Discount from "./Discount/Discount";
@@ -10,6 +11,7 @@ export default function Main() {
       <Cover/>
       <SuperMarketBanner/>
       <Cover2/>
+      <Brand/>
     </div>
   );
 }
