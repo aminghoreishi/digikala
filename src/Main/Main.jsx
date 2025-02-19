@@ -5,6 +5,7 @@ import Cover from "./Cover/Cover";
 import Cover2 from "./Cover2/Cover2";
 import Cover3 from "./Cover3/Cover3";
 import Discount from "./Discount/Discount";
+import OneCover from "./OneCover/OneCover";
 import SuperMarketBanner from "./SuperMarketBanner/SuperMarketBanner";
 export default function Main() {
   return (
@@ -16,6 +17,7 @@ export default function Main() {
       <Brand/>
       <Cover3/>
       <CategoryDigital/>
+      <OneCover/>
     </div>
   );
 }
