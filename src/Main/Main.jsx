@@ -1,8 +1,8 @@
 
 import Brand from "./Brand/Brand";
+import CategoryDigital from "./CategoryDigital/CategoryDigital";
 import Cover from "./Cover/Cover";
 import Cover2 from "./Cover2/Cover2";
-import CoverItem2 from "./Cover2/CoverItem2";
 import Cover3 from "./Cover3/Cover3";
 import Discount from "./Discount/Discount";
 import SuperMarketBanner from "./SuperMarketBanner/SuperMarketBanner";
@@ -15,6 +15,7 @@ export default function Main() {
       <Cover2/>
       <Brand/>
       <Cover3/>
+      <CategoryDigital/>
     </div>
   );
 }
