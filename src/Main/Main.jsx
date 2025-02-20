@@ -7,6 +7,7 @@ import Cover3 from "./Cover3/Cover3";
 import Discount from "./Discount/Discount";
 import OneCover from "./OneCover/OneCover";
 import ProductDiscount from "./ProductDiscount/ProductDiscount";
+import Read from "./Read/Read";
 import SuperMarketBanner from "./SuperMarketBanner/SuperMarketBanner";
 export default function Main() {
   return (
@@ -20,6 +21,7 @@ export default function Main() {
       <CategoryDigital/>
       <OneCover/>
       <ProductDiscount/>
+      <Read/>
     </div>
   );
 }
