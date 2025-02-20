@@ -9,7 +9,7 @@ export default function ProductDiscount() {
           <CurrencyEuroIcon className="size-5 fill-red-700" />
           <h1>منتخب محصولات تخفیف و حراج</h1>
         </div>
-        <div className="grid grid-cols-6  mt-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6  mt-4">
           <div className="p-2 border-l-2 border-gray-300 border-b-2">
             <div className="flex justify-center">
               <div className="size-[120px]">
