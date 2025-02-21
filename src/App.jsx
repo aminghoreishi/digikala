@@ -3,6 +3,7 @@ import Navbar from "./Header/Navbar/Navbar";
 import Header from "./Header/Header";
 import Category from "./Main/Category/Category";
 import Main from "./Main/Main";
+import Footer from "./Footer/Footer";
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Category/>
       <Main/>
+      <Footer/>
     </div>
   );
 }
