@@ -140,8 +140,36 @@ export default function Footer() {
               />
             </div>
             <div className="text-gray-400">
-              <button className="border-2 p-2 border-gray-300 rounded-xl w-full">ثبت</button>
+              <button className="border-2 p-2 border-gray-300 rounded-xl w-full">
+                ثبت
+              </button>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-8 bg-[#3C4B6D] p-3 rounded-xl text-white">
+        <div className="flex justify-between items-center">
+          <div className="flex items-center gap-x-3">
+            <div className="size-12">
+              <img
+                className="size-full"
+                src="https://www.digikala.com/statics/img/png/footerlogo2.webp"
+                alt=""
+              />
+            </div>
+            <p>دانلود اپلیکیشن دیجی کالا</p>
+          </div>
+          <div className="flex items-center gap-3">
+            <div className="h-[44px]">
+              <img className="size-full" src="https://www.digikala.com/statics/img/svg/appStores/coffe-bazzar.svg" alt="" />
+            </div>
+            <div className="">
+              <img src="https://www.digikala.com/statics/img/svg/appStores/myket.svg" alt="" />
+            </div>
+            <div className="">
+              <img src="https://www.digikala.com/statics/img/svg/appStores/sib-app.svg" alt="" />
+            </div>
+            
           </div>
         </div>
       </div>
