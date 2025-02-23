@@ -3,8 +3,8 @@ import { ArrowLongUpIcon } from "@heroicons/react/24/solid";
 export default function Footer() {
   return (
     <div className="border-t-2 mt-12 max-md:p-2 p-3 border-gray-300 font-DanaMedium">
-      <div className="flex items-center justify-between ">
-        <div className="">
+      <div className="flex items-center justify-between max-sm:mt-3 ">
+        <div className=""> 
           <img src="/public/digik.png" alt="" />
         </div>
         <div className="">
