@@ -1,0 +1,9 @@
+.swiper-slide  {
+    width: 190px;
+}
+
+@media only screen and (max-width: 450px) {
+    .swiper-slide {
+        width: 190px;
+    }
+}

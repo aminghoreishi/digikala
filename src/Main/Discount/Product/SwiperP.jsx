@@ -8,6 +8,7 @@ import "swiper/css/free-mode";
 import Product from "./Product";
 
 import "../../../style.css";
+import "./SwiperP.css"
 
 // import required modules
 import { FreeMode } from "swiper/modules";
@@ -17,25 +18,22 @@ export default function SwiperP() {
     <>
       <Swiper
         spaceBetween={10}
+        slidesPerView={"auto"}
         freeMode={true}
         breakpoints={{
-            320: {
-              slidesPerView: 2,
-              spaceBetween: 3,
-            },
-            640: {
-              slidesPerView: 6,
-              spaceBetween: 5,
-            },
-            768: {
-              slidesPerView: 4,
-              spaceBetween: 5,
-            },
-            1024: {
-              slidesPerView: 5,
-              spaceBetween: 10,
-            },
-          }}
+          320: {
+            spaceBetween: 3,
+          },
+          640: {
+            spaceBetween: 5,
+          },
+          768: {
+            spaceBetween: 5,
+          },
+          1024: {
+            spaceBetween: 10,
+          },
+        }}
         modules={[FreeMode]}
         className="mySwiper w-full lg:h-full h-[240px] rounded-md"
       >
