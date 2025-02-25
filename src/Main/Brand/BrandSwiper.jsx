@@ -1,61 +1,39 @@
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
-import "swiper/css";
-import "./BrandSwiper.css";
+import "../../style.css"
+ 
 
 export default function App() {
   return (
-    <>
-      <Swiper
-        slidesPerView={"auto"}
-        spaceBetween={30}
-        className="mySwiper"
-        freeMode={true}
-        style={{ paddingInline: "10px" }}
-        breakpoints={{
-          320: {
-            spaceBetween: 12,
-          },
-          640: {
-            spaceBetween: 5,
-          },
-          768: {
-            spaceBetween: 5,
-          },
-          1024: {
-            spaceBetween: 5,
-          },
-        }}
-      >
-        <SwiperSlide>
-          <img src="/peghah.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/huawi.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/xvi.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/anter.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/china.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/kingstar.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/per.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/china.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/china.png" alt="" />
-        </SwiperSlide>
-      </Swiper>
-    </>
+    <div className="flex justify-around">
+      
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/peghah.png" alt="" />
+        </div>
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/huawi.png" alt="" />
+        </div>
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/xvi.png" alt="" />
+        </div>
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/anter.png" alt="" />
+        </div>
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/china.png" alt="" />
+        </div>
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/kingstar.png" alt="" />
+        </div>
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/per.png" alt="" />
+        </div>
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/china.png" alt="" />
+        </div>
+        <div style={{width:"120px"}}>
+          <img className="w-full" src="/china.png" alt="" />
+        </div>
+      
+    </div>
   );
 }
