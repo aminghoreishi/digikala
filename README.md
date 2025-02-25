@@ -12,6 +12,9 @@
 # Template Digikala
 <p>This is a simple template of Digikala, built with React and Tailwind.</p>
 
+<img src="https://img.shields.io/github/commit-activity/w/aminghoreishi/digikala">
+
+
 ## Installation
 
 Install my-project with npm
