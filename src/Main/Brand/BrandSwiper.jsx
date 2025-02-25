@@ -7,31 +7,31 @@ export default function App() {
     <div className="flex justify-around">
       
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/peghah.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/peghah.png" alt="" />
         </div>
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/huawi.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/huawi.png" alt="" />
         </div>
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/xvi.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/xvi.png" alt="" />
         </div>
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/anter.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/anter.png" alt="" />
         </div>
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/china.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/china.png" alt="" />
         </div>
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/kingstar.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/kingstar.png" alt="" />
         </div>
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/per.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/per.png" alt="" />
         </div>
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/china.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/china.png" alt="" />
         </div>
         <div style={{width:"120px"}}>
-          <img className="w-full" src="/china.png" alt="" />
+          <img className="w-full" src="%PUBLIC_URL%/china.png" alt="" />
         </div>
       
     </div>
