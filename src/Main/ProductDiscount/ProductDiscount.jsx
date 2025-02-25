@@ -9,8 +9,8 @@ export default function ProductDiscount() {
           <CurrencyEuroIcon className="size-5 fill-red-700" />
           <h1>منتخب محصولات تخفیف و حراج</h1>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6  mt-4">
-          <div className="p-2 border-l-2 border-gray-300 border-b-2">
+        <div className="grid grid-cols-2  max-lg:gap-3 md:grid-cols-3 lg:grid-cols-6  mt-4">
+          <div className="p-2 lg:border-l-2 border-gray-300 max-lg:shadow-md lg:border-b-2">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -21,7 +21,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 px-2 rounded-full text-white text-xs">
@@ -41,7 +41,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300 border-b-2">
+          <div className="p-2 lg:border-l-2 border-gray-300 max-lg:shadow-md lg:border-b-2">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -52,7 +52,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -72,7 +72,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300 border-b-2">
+          <div className="p-2 lg:border-l-2 border-gray-300 max-lg:shadow-md lg:border-b-2">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -83,7 +83,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -103,7 +103,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300 border-b-2">
+          <div className="p-2 lg:border-l-2 border-gray-300 max-lg:shadow-md lg:border-b-2">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -114,7 +114,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -134,7 +134,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300 border-b-2">
+          <div className="p-2 lg:border-l-2 border-gray-300 max-lg:shadow-md lg:border-b-2">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -145,7 +145,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -165,7 +165,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2  border-b-2 border-gray-300">
+          <div className="p-2 max-lg:shadow-md lg:border-b-2 border-gray-300">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -176,7 +176,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -196,7 +196,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300">
+          <div className="p-2 max-lg:shadow-md lg:border-l-2 border-gray-300">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -207,7 +207,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -227,7 +227,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300">
+          <div className="p-2 max-lg:shadow-md lg:border-l-2 border-gray-300">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -238,7 +238,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -258,7 +258,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300">
+          <div className="p-2 max-lg:shadow-md lg:border-l-2 border-gray-300">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -269,7 +269,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -289,7 +289,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300">
+          <div className="p-2 max-lg:shadow-md lg:border-l-2 border-gray-300">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -300,7 +300,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -320,7 +320,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 border-l-2 border-gray-300">
+          <div className="p-2 max-lg:shadow-md lg:border-l-2 border-gray-300">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -331,7 +331,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
@@ -351,7 +351,7 @@ export default function ProductDiscount() {
               </div>
             </div>
           </div>
-          <div className="p-2 ">
+          <div className="p-2 max-lg:shadow-md ">
             <div className="flex justify-center">
               <div className="size-[120px]">
                 <img
@@ -362,7 +362,7 @@ export default function ProductDiscount() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-2">
-              <div className="text-sm w-full">
+              <div className="max-md:text-xs text-sm w-full">
                 <div className="flex items-center justify-between w-full">
                   <div className="">
                     <span className="bg-red-700 p-1 rounded-full text-white text-xs">
