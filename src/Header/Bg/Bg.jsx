@@ -1,6 +1,6 @@
 import "../../style.css";
 
-// Import Swiper React components
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Bg() {
@@ -11,9 +11,10 @@ export default function Bg() {
         loop={true}
         slidesPerView={1}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
+        modules={[Autoplay]}
         className="mySwiper mt-3"
       >
         <SwiperSlide className="h-full">
