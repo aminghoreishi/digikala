@@ -13,14 +13,14 @@
   font-style: normal;
   font-weight: 200 700;
   font-display: swap;
-  src: url("fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
+  src: url("/public/fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: Dana-Bold;
   font-weight: 900;
   font-display: swap;
   font-style: normal;
-  src: url("font/Dana/Woff/DanaFaNum-DemiBold.woff2") format("woff2");
+  src: url("/public/fonts/font/Dana/Woff/DanaFaNum-DemiBold.woff2") format("woff2");
 }
 @utility container {
   padding-inline: 10px;
